@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupsActivity">
+
+    <include
+        android:id="@+id/group_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp">
+
+    </include>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/group_toolbar"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginRight="25dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/group_icon"
+        android:layout_width="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+        android:background="@drawable/add_post">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:hint="Choose Group Icon"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+
+        ></View>
+    <LinearLayout
+        android:layout_marginLeft="0dp"
+        android:id="@+id/group_layout"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+     <EditText
+         android:id="@+id/group_name"
+         android:hint="Group Name"
+      android:layout_width="match_parent"
+         android:layout_marginLeft="5dp"
+         android:inputType="textMultiLine"
+         android:textColor="@color/black"
+         android:textSize="18sp"
+         android:textStyle="bold"
+         android:layout_height="wrap_content">
+
+     </EditText>
+
+    <EditText
+        android:id="@+id/group_description"
+        android:hint="Group Description"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_group"
+        android:layout_width="wrap_content"
+        android:text="Create group"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
+</RelativeLayout>

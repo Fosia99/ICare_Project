@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+
+    tools:context=".JobListingActivity"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/job_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/job_title"
+                android:hint="Title"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/job_location"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Location"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            <EditText
+                android:id="@+id/job_time"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:inputType="time"
+                android:layout_marginTop="20dp"
+                android:hint=" Closing Time"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <EditText
+                android:id="@+id/job_date"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:inputType="date"
+                android:layout_marginTop="20dp"
+                android:maxLines="3"
+                android:hint="Closing Date"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/job_content"
+                android:layout_width="match_parent"
+                android:hint="Description"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/job_requirement"
+                android:layout_width="match_parent"
+                android:hint="Requirements"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:background="@color/colorAccent"
+
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/job_contact"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:hint="Contact"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/save_job"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Share Opportunity..."
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#F37D74"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

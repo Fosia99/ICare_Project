@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawable.layout4"
+    android:layout_height="match_parent"
+    tools:context=".TreatmentActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+
+            <include
+                android:id="@+id/treatment_app_bar"
+                layout="@layout/app_bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white"
+                    android:text="Treatment"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Treatment will depend on :"
+                    android:textColor="#4A3601"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="The type of breast cancer"
+                    android:textColor="#4A3601"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="The stage of the cancer"
+                    android:textColor="#4A3601"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Sensitivity to hormones"
+                    android:textColor="#4A3601"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="The patients age,overall health and preferences"
+                    android:textColor="#4A3601"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:text="The main treatment options include"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="#F8F0F0"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/treatment_options"></ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Factors affecting a person's choice will include the stage of the cancer , other medical conditions, and
+ their individual preference."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Factors affecting a person's choice will include the stage of the cancer , other medical conditions, and
+ their individual preference."
+                    android:textColor="#4A3601"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:text="Surgery"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="If surgery is needed, the choice will depend on the diagnosis and the individual. \n\n
+    Types of surgery include:"
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Lumpectomy: This involves removing the tumor and a small amount of healthy tissue around it. This can help prevent the spread of the cancer. This may be an option if the tumor is small and likely to be easy to separate from the tissue surrounding it."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Mastectomy: A simple mastectomy involves removing the lobules, ducts, fatty tissue, nipple, areola, and some skin. Radical mastectomy will remove muscle from the chest wall as well as the lymph nodes in the armpit."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Sentinel node biopsy: Removing one lymph node can stop the cancer spreading, because if breast cancer reaches a lymph node, it can spread farther through the lymphatic system into other parts of the body."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Axillary lymph node dissection: If there are cancer cells on a node called the sentinel node, the healthcare professional may recommend removing several lymph nodes in the armpit to prevent the spread of disease."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Reconstruction: Following breast surgery, a surgeon can perform a reconstruction to recreate the breast so that it looks similar to the other one. They can do this at the same time as performing a mastectomy, or at a later date. They may use a breast implant, or tissue from another part of the patient’s body."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:text="Radiation Therapy"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Controlled doses of radiation are targeted at the tumor to destroy the cancer cells. A person may undergo this from around a month after surgery, along with chemotherapy. This works to kill any remaining cancer cells. \n\n
+
+Each session lasts for a few minutes, and a person may need three to five sessions per week for 3-6 weeks, depending on the aim and the extent of the cancer. \n\n
+
+The type of breast cancer will dictate what type of radiation therapy, if any, is the most suitable. \n\n
+
+Adverse effects include fatigue, lymphedema, darkening of the breast skin, and irritation of the breast skin."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:text="Chemotherapy"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="A doctor may prescribe cytotoxic drugs may be used to kill cancer cells, if there is a high risk of recurrence or spread. This is called adjuvant chemotherapy.\n\n
+
+If a tumor is large, a specialist may choose to administer chemotherapy before the surgery to shrink the tumor and make its removal easier. This is called neo-adjuvant chemotherapy.\n\n
+
+Chemotherapy can also treat cancer that has metastasised, or spread to other parts of the body, and it can reduce some symptoms. This is especially true in the later stages.\n\n
+
+It can also reduce estrogen production, as estrogen can encourage the growth of some breast cancers."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Adverse effects of chemotherapy may include:\n\n
+
+nausea \n
+vomiting \n
+loss of appetite \n
+fatigue \n
+sore mouth \n
+hair loss \n
+a slightly higher susceptibility to infections \n
+Medications can help control many of these side effects, however."
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:text="Hormone Blocking Therapy"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Doctors use hormone blocking therapy to prevent recurrence in hormone-sensitive breast cancers. These are called estrogen receptive (ER)-positive and progresterone receptor (PR)-positive cancers. \n\n
+
+They normally administer hormone blocking therapy is normally used after surgery, but they might sometimes use it beforehand to shrink the tumor. \n\n
+
+It may be the only option for patients who cannot undergo surgery, chemotherapy, or radiotherapy. \n\n
+
+The effects normally last for up to 5 years after surgery. However, the treatment will have no effect on cancers that are not sensitive to hormones. \n\n
+
+Examples of hormone blocking therapy medications may include:\n\n
+
+tamoxifen \n
+aromatase inhibitors \n
+ovarian ablation or suppression \n
+a luteinizing hormone-releasing hormone agonist drug called Goserelin, which suppresses the ovaries \n
+Hormone treatment may affect a woman’s future fertility.\n "
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:text="  Biological treatment"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="0dp"
+                android:text="Targeted drugs can destroy specific types of breast cancer. Examples of such drugs include trastuzumab (Herceptin), lapatinib (Tykerb), and bevacizumab (Avastin). Doctors administer these drugs for different purposes. \n\n
+
+Treatments for breast and other cancers can have severe adverse effects. Therefore, when deciding on a treatment, the patient should discuss with a doctor the risks involved and ways to minimise the negative effects \n\n"
+                android:textColor="#4A3601"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_treatment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|left"
+        android:layout_marginBottom="3dp"
+        android:background="#F8D0CA"
+        app:itemIconSize="40dp"
+        app:itemTextColor="#AE5615"
+        app:menu="@menu/treatment_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

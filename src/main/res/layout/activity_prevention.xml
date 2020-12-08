@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawable.layout5"
+    android:layout_height="match_parent"
+    tools:context=".PreventionActivity">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/prevention_app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:id="@+id/about_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:text=" How to reduce your risk"
+            android:textColor="#DF050505"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/about_summary_into"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Research shows that style changes can decrease the risk of breast cancer, even in women at high risk.  \n\n To lower your risk:\n\n
+*Limit alcohol. The more alcohol you drink, the greater your risk of developing breast cancer. The general recommendation — based on research on the effect of alcohol on breast cancer risk — is to limit yourself to less than one drink a day, as even small amounts increase risk.\n\n
+*Don't smoke. Evidence suggests a link between smoking and breast cancer risk, particularly in premenopausal women.\n\n
+*Control your weight. Being overweight or obese increases the risk of breast cancer. This is especially true if obesity occurs later in life, particularly after menopause.\n\n
+*Be physically active. Physical activity can help you maintain a healthy weight, which helps prevent breast cancer. Most healthy adults should aim for at least 150 minutes a week of moderate aerobic activity or 75 minutes of vigorous aerobic activity weekly, plus strength training at least twice a week.\n\n
+*Breast-feed. Breast-feeding might play a role in breast cancer prevention. The longer you breast-feed, the greater the protective effect. \n\n
+*Limit dose and duration of hormone therapy. Combination hormone therapy for more than three to five years increases the risk of breast cancer. If you're taking hormone therapy for menopausal symptoms, ask your doctor about other options. You might be able to manage your symptoms with nonhormonal therapies and medications. If you decide that the benefits of short-term hormone therapy outweigh the risks, use the lowest dose that works for you and continue to have your doctor monitor the length of time you're taking hormones.\n\n
+*Avoid exposure to radiation and environmental pollution. Medical-imaging methods, such as computerized tomography, use high doses of radiation. \n\n
+While more studies are needed, some research suggests a link between breast cancer and cumulative exposure to radiation over your lifetime. \n\n
+Reduce your exposure by having such tests only when absolutely necessary."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Is there a link between birth control pills and breast cancer? \n\n
+There's some evidence that hormonal contraception, which includes birth control pills and IUDs that release hormones, increases the risk of breast cancer. But the risk is considered very small, and it decreases after you stop using hormonal contraceptives.\n\n
+A recent study that showed an association between hormonal contraceptive use and breast cancer determined one additional breast cancer could be expected for every 7,690 women who use hormonal contraception for at least one year.\n\n
+Discuss your contraceptive options with your doctor. Also consider the benefits of hormonal contraception, such as controlling menstrual bleeding, preventing an unwanted pregnancy, and reducing the risk of other cancers, including endometrial cancer and ovarian cancer.\n\n\n
+What else can I do? \n\n
+Be vigilant about breast cancer detection. If you notice any changes in your breasts, such as a new lump or skin changes, consult your doctor. Also, ask your doctor when to begin mammograms and other screenings based on your personal history.\n\n"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_prevention"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|left"
+        android:layout_marginBottom="3dp"
+        android:background="#F8D0CA"
+        app:itemIconSize="40dp"
+
+        app:itemTextColor="#AE5615"
+        app:menu="@menu/prevention_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

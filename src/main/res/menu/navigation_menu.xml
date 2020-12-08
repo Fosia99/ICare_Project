@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_about_cancer"
+        android:title="About Breast Cancer"
+        android:icon="@drawable/info"/>
+
+    <item
+        android:id="@+id/nav_friends"
+        android:title=" My Friends"
+        android:icon="@drawable/friends"/>
+
+    <item android:id="@+id/nav_find_friends"
+        android:title="Find Friends"
+        android:icon="@drawable/find_people"/>
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="My Profile" />
+
+    <item android:id="@+id/nav_schedule"
+        android:title="My Schedule"
+        android:icon="@drawable/tasks"/>
+
+    <item android:id="@+id/nav_journal"
+        android:title="My Journal"
+        android:icon="@drawable/calender"/>
+
+    <item android:id="@+id/nav_settings"
+        android:title="Settings"
+
+        android:icon="@drawable/settings"/>
+
+    <item android:id="@+id/nav_contact_us"
+        android:title="About ICare"
+        android:icon="@drawable/info"/>
+
+    <item android:id="@+id/nav_log_out"
+        android:title="Log Out"
+        android:icon="@drawable/logout_icon"/>
+
+
+
+</menu>

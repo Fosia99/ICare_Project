@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/self_into"
+        android:icon="@drawable/info"
+        android:title="Introduction" />
+
+    <item
+        android:id="@+id/self_signs"
+        android:icon="@drawable/signs"
+        android:title="Signs and Symptoms" />
+
+    <item
+        android:id="@+id/self_self_exam"
+        android:icon="@drawable/selfexam"
+        android:title="Self Examination" />
+
+    <item
+        android:id="@+id/self_risk_factors"
+        android:icon="@drawable/risks"
+        android:title="Risk factors" />
+
+    <item
+        android:id="@+id/self_treatment"
+        android:icon="@drawable/treatment"
+        android:title="Treatment" />
+
+    <item
+        android:id="@+id/self_prevention"
+        android:icon="@drawable/prevention"
+        android:title="Prevention" />
+
+
+    <item
+        android:id="@+id/self_get_involved"
+        android:icon="@drawable/getinvolved"
+        android:title="Get Involved" />
+    <item
+        android:id="@+id/self_more_info"
+        android:icon="@drawable/info"
+        android:title="More Information" />
+
+</menu>

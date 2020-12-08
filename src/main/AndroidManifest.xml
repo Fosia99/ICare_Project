@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icare" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".JobListingHomeActivity"
+            android:parentActivityName=".GetInvolvedActivity">
+        </activity>
+        <activity android:name=".VolunteerHomeActivity"
+            android:parentActivityName=".GetInvolvedActivity"/>
+        <activity
+            android:name=".TestimonyMainActivity"
+            android:parentActivityName=".GetInvolvedActivity" />
+
+        <activity android:name=".TestemoniesActivity"
+            android:parentActivityName=".TestimonyMainActivity"
+           />
+        <activity android:name=".JobListingActivity"
+            android:parentActivityName=".JobListingHomeActivity"/>
+
+        <activity android:name=".DonationsActivity" />
+        <activity android:name=".VolunteerActivity"
+            android:parentActivityName=".VolunteerHomeActivity"/>
+        <activity android:name=".JournalActivity" />
+        <activity android:name=".Flash_Screen_Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MoreInfoActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".GetInvolvedActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".PreventionActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".TreatmentActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".RiskFactorsActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".SelfExaminationActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity android:name=".InviteActivity" />
+        <activity android:name=".ApplicationSettingsActivity" />
+        <activity android:name=".FeedBackActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".PopupActivity" />
+        <activity android:name=".Past_TasksActivity" />
+        <activity android:name=".SlideActivity" />
+        <activity android:name=".ScheduleActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".TaskAdderActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Signs_and_symptomsActivity"
+            android:parentActivityName=".AboutCancerActivity"/>
+        <activity
+            android:name=".AboutCancerActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GroupClickActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".GroupsActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity
+            android:name=".FriendsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ProfilePersonalActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".CommentsActivity" />
+        <activity
+            android:name=".FindFriendsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PostActivity"
+            android:parentActivityName=".GroupClickActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SetupActivity" />
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

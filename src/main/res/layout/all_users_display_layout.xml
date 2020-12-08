@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:elevation="6dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/all_users_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="6dp"
+        android:padding="5dp"
+       ></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/all_users_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Full Name"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/all_users_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Status"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+
+</LinearLayout>

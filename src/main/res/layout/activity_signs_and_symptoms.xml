@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawable.layout1"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Signs_and_symptomsActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/signs_toolbar"
+            layout="@layout/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></include>
+
+
+<Button
+    android:id="@+id/signs_text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:textSize="20sp"
+    android:background="@color/white"
+    android:textColor="@color/black"
+    android:text="Breast cancer symptoms"
+    android:fontFamily="sans-serif-light"
+    android:textStyle="bold">
+
+</Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Perhaps the most recognized symptom of breast cancer is a lump  or mass in the breast tissue. While many women go to the doctor after finding a lump , every woman should should also
+be aware of other changes to the breast or nipple.
+\n\n With the different types of breast cancer come a variety of related symptoms. "
+            android:layout_marginTop="15dp"
+            android:textColor="#87431D"
+            android:layout_marginLeft="5dp"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+<Button
+    android:layout_width="match_parent"
+    android:text="Early warning signs of breast cancer"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="0dp"
+    android:textStyle="bold"
+    android:background="@color/white"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:fontFamily="sans-serif-light"
+    android:layout_height="wrap_content">
+
+</Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Symptoms of breast tumor vary from person to person. Some common,early warning signs of breast cancer include:"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/signs_pulling"
+    >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/signs_discharg"
+        >
+
+    </ImageView>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/signs_changes"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/signs_dumpling"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/signs_itching"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/signs_lump"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/signs_pain"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/signs_swelling"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:text="Breast Cancer Types"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="There are many  different types of breast cancers. To determine an appropriate
+approach to treating the disease, your doctor will first evaluate the specifics of the breast tumor ,
+including : \n\n
+1. Whether the disease has spread beyond the breast \n
+2. The type of tissue where the disease began"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="#87431D"
+        android:fontFamily="sans-serif-light"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/types"
+        android:layout_height="250dp">
+
+    </ImageView>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Top 5 Most prevalent breast cancer types affecting the Namibian populace"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+
+            </Button>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Invasive ductal carcinoma (IDC)"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Sometimes called infiltrating ductal carcinoma , is the most common type of breast cancer.
+About 80% of all breast cancers are invasive ductal carcinomas.Invasive means the cancer has invaded or spread to the surrounding breast tissues. Ductal means that
+the cancer began in the milk ducts ,which are the pipes that carry milk from the milk-producing lobules to the nipple.Carinoma
+refers to any cancer that begins in the skin or the tissues that covers internal organs - such a breast tissues.
+All together , invasive ductal carcinoma refers to the cancer that has broken through the wall of the milk duct and began to invade the tissues of the breast. Invasive ductal carcinoma can spread to the lymph nodes and
+possibly to the other areas of the body. Although invasive ductal carcinoma can affect women at any age, it is more common as women grow older."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Invasive lobular carcinoma (ILC)"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text=" Sometimes called infiltrating lobular carcinoma, is the second most common type of breast cancer after invasive ductal carcinoma
+Lobular means that the cancer began in the milk producing lobules,which empty out into the ducts that carry milk to the nipple.
+Invasive lobular carcinoma refers to the cancer that has broken through the wall of the lobule and began to invade the tissues of the breast.
+Overtime ,invasive lobular carcinoma can spread to the lymph nodes and possibly to other parts of the body.ILC
+tends to occur later in life than Invasive ductal carcinoma- the early 60s as opposed to the mid-to late 50s.Some
+research has suggested that the use of hormone replacement therapy during and after menopause can increase the the risk of ILC."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Ductal carcinoma in situ (DCIS)"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="is a non_invasive breast cancer.DCIS is called non-invasive because it hasn't spread beyond the milk duct into any normal
+surrounding breast tissue. DCIS isn't life threatening , but having DCIS can increase the risk of developing an invasive breast cancer later
+on. When you have had DCIS , you are at higher for the cancer coming back or for developing a new
+breast than a person who has never had breast cancer before. Most recurrences happen within the 5 to 10 yeras after
+the initial diagnosis. The chances of a recurrence are below 30%."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Tabular carcinoma"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text=" This is a subtype of invasive ductal carcinoma. Tubular carcinoma are usually small
+about 1 cm or less and are made up of tube shaped structures called tubules. These tumors tend to be low-grade , meaning that their cells
+look somewhat similar to normal, healthy cells and tend to grow slowly.Studies also suggest that the average age of diagnosis
+for the tubular carcinoma is the early 50s , although women can be diagnosed with it at any age.
+This type of cancer is rare in rare in men.Even though tubular carcinoma is an invasive breast cancer type
+,it tends to be less aggresive type that responds well to treatment. It isn't likely to spread
+outside the breast and is considered to have a very good prognosis."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Medullary Carcinoma"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="This is a rare subtype of invasive ductal carcinoma, accounting for about 3-5 % of all cases of breast
+cancer. It is called medullary carcinoma because the tumor is a soft,fleshy mass that resembles a part of the brain
+called medulla. Medullary carcinoma can occur at any age but it is usually affects in their late 40s and early 50s . Medullary carcinoma
+cells usually high-grade in their appearance and low-grade in their behavior. In other words, they look like aggresive ,highly abnormal cancer cells but they dont
+cat like them. Medullary carcinoma doesn't grow quickly and usually doesn't spread outside the breast to the lymph nodes.For this reason , its
+typically easier to treat than other types of breast cancer."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Mucinous Carcinoma"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text=" Sometimes colloid carcinoma ,is a rare form of invasive ductal carcinoma . In this type of cancer, the tumor is made up of abnormal
+cells that float in pools of mucin, a key ingredient in the slimy ,slippery substance known as mucus.
+Normally , mucus lines in most of the inner surface of our bodies such as our digestive tract,lungs,liver and other vital organs.
+Many types of cancer cells ,including most breast cancer cells - produce some mucus. In macinous carcinoma , however ,mucin becomes a part of the tumor, and
+surrounds the breast cancer cells. Although mucinous carcinoma can be diagnosed at any age, it tends to affect women
+after they have gone through menopause. This subtype tends to be less aggressive that responds well to treatment .It is less likely
+to spread lymph nodes than other types of breast cancer."
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Invasive Cribriform Carcinoma"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Here, the cancer cells invade the stroma( connective tissues of the breast) in the nest-like formations between the ducts and lobules.
+Within the tumor, there are distinctive  holes in between the ccancer cells , making it look something like Swiss cheese
+.Invasive cribriform carcinoma is usually low grade ,meaning that its cells look and somewhat behave like normal , healthy breast cells.
+In about 5-6 % of invasive breast cancer ,some portions of the tumor can be considered as cribriform carcioma. Usally
+some ductal caricinoma in situ (DCIS) of the cribriform type is present as well"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Inflammatory breast Cancer (IBC)"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Is a rare and aggressive form of breast cancer. Inflammatory breast cancer usually starts with the reddening
+and swelling of the breast instead of distinct lump. IBC tends to grow and spread quickly with symptoms worsening within days or even hours.Its important to recognize symptoms and seek prompt treatment.
+Although inflammatory breast cancer is a serious diagnosis ,keep in mind that treatment today are better at controlling the disease than they used to be "
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Male Breast Cancer"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Breast cancer in men, is a rare disease. Less than 1% of all the breast occur in men.
+For men, the lifetime risk of being diagnosed with breast cancer in about 1 in 1000.You may be thinking , men don't breast , so how can they get breast cancer?
+The truth is that boys and girls ,men and women all have breast tissue. The various hormones in girls and women's bodies stimulate the breast tissue to grow
+into full breast.Boys and men's bodies  normally don't make much of the breast-stimulating hormones.
+As a result , their breast tissue usually stays flat and small.Still, you may have seen boys and men with medium-sized
+or big-breasts. Usually these breasts are just mounds of fat.But sometimes ,men can develop real breast gland tissue,because breast cancer are very small.
+But when a number of these small studies are grouped together, we can learn more from them."            android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#87431D"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_signs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|left"
+        android:layout_marginBottom="3dp"
+        android:background="#F8D0CA"
+        app:itemIconSize="40dp"
+
+        app:itemTextColor="#AE5615"
+        app:menu="@menu/signs_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawable.layout3"
+    android:layout_height="match_parent"
+    tools:context=".RiskFactorsActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+        <include
+            android:id="@+id/risk_app_bar"
+            layout="@layout/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Risk Factors"
+            android:layout_marginTop="0dp">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#595238"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="The exact cause of breast cancer remains unclear, but some risk factors make it more likely. Some of these are preventable."
+            android:layout_margin="5dp">
+
+        </TextView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Age"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="The risk increases with age. At 20 years , the chances of developing breast cancer in the next decade is 0.6 percent. By the of 70 years, this figures goes up to 3.84 percent"
+                android:layout_marginTop="5dp">
+
+            </Button>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Genetics"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="If a close relative has or has had, breast cancer, the risk is higher.
+Women who carry the BRCA1 and BRCA2 genes have a higher risk of developing breast cancer, ovarian cancer or both.  These genes can be inherited.
+TP53 is another gene tht is linked to a greater breast cancer risk. "                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="A history of breast cancer or breast lumps"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Women who have breast cancer before are more likely to have it again, compared with those
+who have no history of the disease.
+Having some types of benign or non-cancerous breast lumps increases the chance of developing cancer later on. Examples include a typical ductal hyperplasia or lobular carcinoma in situ"
+                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Dense breast tissue"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Breast cancer is more likely to develop in higher density breast tissue "                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Estrogen exposure and breast-feeding"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Being exposed to estrogen for a longer period appears to increase the risks of breast cancer.
+This could be due to starting periods earlier or entering menopause later than average.Between these times , estrogen levels are higher.
+Breast feeding especially for over a year, appears to reduce the chance of developing breast cancer, possibly because pregnancy
+followed by breastfeeding reduces exposure to estrogen"
+                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Body Weight"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text=" Women who are overweight or have obesity after menopause may have a higher risk of developing breast cancer ,possibly due
+to higher levels of estrogen .High sugar intake may also be a factor."                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Alcohol consumption"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="A higher rate of regualr alcohol consumption appears to play a role. Studies have shown that women who consume more than 3 drinks a day have a 1.5 times higher risk. "                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Radiation exposure"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Undergoing radiation treatment for a cancer
+                 that is  not breast cancer increase the risk of breast cancer later in life. "                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Hormone treatments"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:textAllCaps="false"
+                android:background="@android:color/transparent"
+                android:text="The use hormone replacement therapy(HRT) and oral birth control pills have been linked to breast cancer,due to incraesed  "                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Occupational hazards"
+                android:layout_marginTop="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#595238"
+                android:textSize="17sp"
+                android:background="@android:color/transparent"
+                app:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Researchers concluded that exposure to certain carcinogens and endocrine disruptors, for example in the work place ,could be linked to breast cancer.
+
+In 2007, scientist suggested that working night shits could increase the risk of breast cancer."                android:layout_marginTop="5dp">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_risk"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|left"
+        android:layout_marginBottom="3dp"
+        android:background="#F8D0CA"
+        app:itemIconSize="40dp"
+
+        app:itemTextColor="#AE5615"
+        app:menu="@menu/risk_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
